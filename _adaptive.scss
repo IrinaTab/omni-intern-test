@@ -231,10 +231,6 @@
         &__item {
             font-weight: 900;
             font-size: 54px;
-            &_1 {
-                position: absolute;
-                z-index: 2;
-            }
             &_2 {
                 transform: translate(6px, -6px);
             }
@@ -275,6 +271,46 @@
                 width: 360px;
                 height: 70px;
             }
+        }
+    }
+}
+@media (max-width: 320px) {
+    .center {
+        padding-left: calc(50% - 140px);
+        padding-right: calc(50% - 140px);
+    }
+    .content {
+        &__img-mob {
+            width: 260px;
+            height: 176px;
+        }
+        &__text {
+            font-size: 14px;
+        }
+    }
+    .footer {
+        align-items: center;
+        gap: 10px;
+        margin-top: 52px;
+        &__btn {
+            font-size: 14px;
+
+            &_dev {
+                width: 260px;
+                height: 70px;
+            }
+            &_integ {
+                width: 260px;
+                height: 70px;
+            }
+            &_design {
+                width: 260px;
+                height: 70px;
+            }
+        }
+        &__vector {
+            width: 20px;
+            height: 27px;
         }
     }
 }
