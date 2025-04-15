@@ -496,7 +496,7 @@ body {
     height: 70px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .center {
     padding-left: calc(50% - 140px);
     padding-right: calc(50% - 140px);
